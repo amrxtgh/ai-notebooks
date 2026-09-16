@@ -29,5 +29,5 @@ struct NodeId(usize);
 struct Tree { root: Option<NodeId>, nodes: Vec<Node> }
 
 fn main() {
-
+    println!("Hello World");
 }
